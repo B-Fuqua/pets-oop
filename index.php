@@ -29,6 +29,14 @@ $f3->route('GET /', function(){
 
     //Invoke the sleep method
     $pet1->sleep();
+
+    $pet1->setName("Joe");
+
+    echo $pet1->getName();
+
+    $pet1->setColor("Red");
+
+    echo $pet1->getColor();
 });
 
 //Run Fat-Free
